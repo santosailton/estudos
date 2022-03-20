@@ -1,0 +1,5 @@
+https://aws.amazon.com/pt/containers/services/
+https://www.docker.com/resources/what-container
+https://aws.amazon.com/pt/ecs/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&ecs-blogs.sort-by=item.additionalFields.createdDate&ecs-blogs.sort-order=desc
+https://github.com/aws/amazon-ecs-agent
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_instances.html

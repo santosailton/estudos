@@ -1,0 +1,32 @@
+﻿Tolerância a falha é uma questão importante no projeto de sistemas distribuídos; é definida como a característica:
+D 	
+Pela qual um sistema pode mascarar a ocorrência e a recuperação de falhas. Um sistema é tolerante a falha se puder continuar a funcionar na presença de falhas.
+________________________________________________________________________________________________________________________________________________________________________________________
+Em sistemas distribuídos a segurança desempenha um papel de extrema importância.
+
+Sobre as afirmativas é possível afirmar:
+
+I - Deve oferecer facilidades para estabelecer canais seguros entre processos. Um canal seguro fornece os meios para autenticar mutuamente as partes comunicantes e proteger mensagens contra modificação durante sua transmissão. De modo geral, um canal seguro também oferece confidencialidade, de maneira que ninguém, exceto as partes comunicantes, podem ler as mensagens que passam pelo canal.
+
+II - A autorização trata de proteger recursos de modo tal que somente processos que tenham os direitos de acesso adequados possam realmente acessar e usar esses recursos. O controle de acesso sempre ocorre depois que um processo foi autenticado. Relacionada com o controle de acesso está a prevenção contra o ataque de recusa de serviço, que é um problema difícil para sistemas que são acessíveis pela Internet.
+
+III - O gerenciamento de chaves inclui a distribuição de chaves criptográficas na qual os certificados emitidos por terceiros de confiança desempenham papel importante. Um aspecto relevante em relação ao gerenciamento de autorização são os certificados de atributo e delegação.
+
+Qual das alternativas é verdadeira?
+E 	
+Os itens I, II e III são verdadeiros.
+________________________________________________________________________________________________________________________________________________________________________________________
+
+Tolerância à falha é uma questão importante no projeto de sistemas distribuídos. Definida como a característica pela qual um sistema pode mascarar a ocorrência e a recuperação de falhas. Em outras palavras, um sistema é tolerante a falha se puder continuar a funcionar na presença de falhas. Existem vários tipos de falhas. Uma falha por queda ocorre quando um processo simplesmente para. Uma falha por omissão ocorre quando um processo não responde a requisições que chegam. Quando um processo responde muito cedo ou muito tarde a uma requisição, diz-se que ele exibe uma falha de temporização. Responder a uma requisição que chega, mas do modo errado, é um exemplo de uma falha de resposta. As falhas mais difíceis de tratar são aquelas em que um processo exibe qualquer tipo de falha, denominadas falhas arbitrárias ou bizantinas. Qual a técnica utilizada para contornar uma falha em um ambiente distribuído?
+A 	
+Redundância.
+________________________________________________________________________________________________________________________________________________________________________________________
+POSCOMP 2004
+
+Os tipos mais comuns de defeitos em sistemas distribuídos provocados por falhas físicas de componentes ou interferência eletro-magnética são:
+D 	
+Colapso de servidores, queda do enlace e perda de mensagens.
+________________________________________________________________________________________________________________________________________________________________________________________
+Sabemos que computadores e sitemas falham! Não é uma questão de SE eles vão falhar, mas de QUANDO! Em um falha, um computador pode devolver um resultado errado, mas, em geral, eles param antes de dar a resposta; num SD, falhas são parciais: outros componentes continuam funcionando; quais são as técnicas que podem ser usadas no tratamento desse tipo de ocorrência?
+D 	
+Detecção de falhas, mascaramento de falhas, tolerar falhas, recuperação de falhas e redundância.

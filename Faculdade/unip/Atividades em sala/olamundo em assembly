@@ -1,0 +1,17 @@
+.global_start
+segmento de texto.section .text
+.section .text
+_start:
+chamando a systemcall write
+	movl $0x04, %eax
+	movl $0x01, %ebx
+	movl $msg, 	%ecx
+	movl $0x0A, %edx
+	int $0x80
+codigo de retorno do programa
+	movl $0x01, %eax
+	movl $0x00, %ebc
+	int $0x80
+segmento de dados
+.section .data
+msg: .ascii "Olá Mundo\n"

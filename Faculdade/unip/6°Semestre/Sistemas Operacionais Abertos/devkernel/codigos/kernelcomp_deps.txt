@@ -1,0 +1,20 @@
+Alguns pacotes básicos para a compilação do kernel
+--------------------------------------------------
+
+libncurses5-dev
+(Necessário para interface de configuração menuconfig)
+
+build-essential
+(Contém gcc, make, etc)
+
+debian-builder
+(Necessário para criar o pacote .deb do kernel compilado)
+
+
+
+Sugestões de pacote
+-------------------
+
+indent
+cscope
+

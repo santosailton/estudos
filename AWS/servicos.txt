@@ -1,0 +1,155 @@
+servicos/topicos para estudo
+W1
+GLOBAL INFRASTRUCTURE
+	regions
+	availability zones
+	edge locations
+	point of presence
+	
+INTERACTING WITH AWS
+	Management Console
+	Command Line Interface (CLI)
+	SDKs
+	
+SECURITY AND THE AWS SHARED RESPONSIBILITY MODEL
+	What Is AWS Responsible For?
+	What Is the Customer Responsible For?
+	
+PROTECT THE AWS ROOT USER
+	Understand Authentication
+	Understand Authorization
+	What Is the AWS Root User?
+	Understand the AWS Root User Credentials
+Best Practices:
+	Delete Your Keys to Stay Safe
+	The Case for Multi-Factor Authentication
+
+INTRODUCTION TO AWS IDENTITY AND ACCESS MANAGEMENT
+	What Is IAM?
+	Get to Know the IAM Features
+	What Is an IAM User?
+	IAM User Credentials
+	What Is an IAM Group?
+	What Is an IAM Policy?
+	Understand Policy Structure (effect, action, resource)
+---------------------------------------------------------------------------------------------------------------------------	
+W2
+INTRODUCTION TO AMAZON ELASTIC COMPUTE CLOUD
+	What Is an AMI?
+AMAZON EC2 INSTANCE LIFECYCLE	
+	What Makes Up an EC2 Instance?
+	What Are Instance Families?
+	Where Does Your EC2 Instance Live?
+	Architect for High Availability
+	Explore the EC2 Instance Lifecycle
+	What Is the Difference Between Stop and Stop-Hibernate?
+	What Makes Up the Pricing?
+
+CONTAINER SERVICES ON AWS
+	What Is a Container?
+	What Is Docker?
+	What Is the Difference Between Containers and VMs?
+	Manage Containers with Amazon Elastic Container Service (Amazon ECS)
+	
+SERVERLESS AND AWS LAMBDA
+	Explore Serverless Containers with AWS Fargate
+	How Lambda Works
+	
+REDE NA AWS
+	Use notação CIDR
+	
+INTRODUÇÃO AO AMAZON VPC
+	Criar uma sub-rede
+	Alta disponibilidade com um VPC
+	Gateway de Internet
+	Gateway Privado Virtual
+	
+AMAZON VPC ROUTING AND SECURITY
+	A Tabela de Rota Principal
+	Tabelas de rotas personalizadas
+	Proteja suas sub-redes com ACLs de rede
+	Proteja suas instâncias EC2 com grupos de segurança
+---------------------------------------------------------------------------------------------------------------------------	
+W3	
+STORAGE TYPES ON AWS
+	Block Storage
+	Object Storage
+
+AMAZON EC2 INSTANCE STORAGE AND AMAZON ELASTIC BLOCK STORE
+	Amazon EC2 Instance Store 
+	Amazon Elastic Block Storage (Amazon EBS) 
+	Scale Amazon EBS Volumes
+	*Amazon EBS Use Cases
+	Amazon EBS Volume Types
+	*Benefits of Using Amazon EBS
+	*EBS Snapshots
+	
+OBJECT STORAGE WITH AMAZON S3
+	What Is Amazon S3?
+	Understand Amazon S3 Concepts
+	*S3 Use Cases
+	Choose the Right Connectivity Option for Your Resources
+	Understand IAM Policies
+	Understand S3 Bucket Policies
+	Encrypt S3
+	Use Versioning to Preserve Objects
+	Understand Versioning States
+	*What Are Amazon S3 Storage Classes?
+
+CHOOSE THE RIGHT STORAGE SERVICE
+	Amazon EC2 Instance Store
+	Amazon EBS
+	Amazon S3
+	Amazon Elastic File System (Amazon EFS) and Amazon FSx
+	
+EXPLORE DATABASES ON AWS
+	What Is a Relational Database?
+	What Is a Relational Database Management System?
+
+Amazon Relational Database Service
+	What Is Amazon RDS?
+	Understand DB Instances
+	Work with Amazon RDS in an Amazon Virtual Private Cloud
+	Use AWS Identity and Access Management (IAM) Policies to Secure Amazon RDS
+	Back Up Your Data
+	*Manual Snapshots
+
+INTRODUCTION TO AMAZON DYNAMO DB
+	What Is Amazon DynamoDB?
+	Core Components of Amazon DynamoDB
+	Security with Amazon DynamoDB
+	
+CHOOSE THE RIGHT AWS DATABASE SERVICE
+	AWS Database Services
+---------------------------------------------------------------------------------------------------------------------------
+W4
+MONITORING ON AWS
+	Know the Different Types of Metrics
+	Understand the Benefits of Monitoring
+	Enable Visibility
+
+INTRODUCTION TO AMAZON CLOUDWATCH
+	How CloudWatch Works
+	Break Down Metrics
+	Set Up Custom Metrics
+	Understand the CloudWatch Dashboards
+	Get to Know CloudWatch Logs
+	Learn the CloudWatch Logs Terminology
+	Configure a CloudWatch Alarm
+	Use CloudWatch Alarms to Prevent and Troubleshoot Issues
+	
+OPTIMIZING SOLUTIONS ON AWS
+	What Is Availability?
+	Improve Application Availability
+	Use a Second Availability Zone
+	Manage Replication, Redirection, and High Availability
+	
+ROUTE TRAFFIC WITH AMAZON ELASTIC LOAD BALANCING
+	What’s a Load Balancer?
+	Features of ELB
+	Health Checks
+	ELB Components
+	Application Load Balancer
+	Network Load Balancer
+	Select Between ELB Types
+	

@@ -1,0 +1,20 @@
+_________________GRID - são uma forma de combinar sistemas a fim de obter melhores resultados nos serviços requisitados através dos recursos. De uma forma que, possui um controle central e a comunicação ocorre por via rede. E a divisão de tarefas ocorre através dos nós que podem ser de arquiteturas heterogenias, ou seja, cada nó no grid pode ser um MPP, SMP ou Cluster e por sua vez os nós compartilham os ciclos ociosos de seus sistemas. Não é necessari o que todos os nós utilizem o mesmo sistema operacional.
+CARACTERISTICAS:
+	possui uma central requisitando serviços
+	vários nós na rede
+	nós operam de forma a oferecer o processamento disponivel no momento
+	podem ter arquiteturas heterogeneas na rede e diferentes SOs
+	comunicação via rede
+APLICAÇÕES: grid geralmente é usado em supercomputação distribuida para resolver problemas em que um computador não seria possivel resolver. Computação colaborativa, forma em que é aproveitado a interação entre pessoas de cada né para a construção de base de dados. Computação sob-demanda, maneira em que se usa para usar recursos disponiveis para resolver problemas locais.
+
+_________________CLUSTER - são uma forma de combinar um ou mais sistemas para que trabalhem em grupos a fim de obter melhores resultados nos serviços requisitados . De forma que, possui um controle central e a comunicação ocorre via rede. A divisão das tarefas são feitas por uma central em que distribui o trabalho para os demais nós. O sistema nesse caso é limitado seu desempenho apenas pela rede, já que clusters possui vários sistemas de grande pode de processamento. por exemplo, os supercomputadores são cluster como arquitetura de seu processamento.
+
+CARACTERISTICAS:
+	possui uma central requisitando serviços
+	vários nós na rede
+	o processamento é distribuido entre os nós da rede
+	necessita ter o mesmo SO em todos os nós
+	comunicação via rede
+APLICAÇÕES:Usado para alto desempenho, em que aplicações exigem grande processamento de dados. Usado para alta disponibilidade, em que os computadores mantem uma aplicação sempre disponivel e também usado para balanceamento de carga, onde é dividido o poder de processamento. 
+
+_________________DIFERENÇAS: as diferenças entre as duas arquiteturas, se resumem em que cada nó do cluster que trabalha como escravo em relação a central, pois operam apenas quando um serviço é requisitado e ambos os nós do cluster necessitam ter o mesmo sistema operacional.

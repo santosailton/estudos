@@ -1,0 +1,2 @@
+KERNEL=="clockseg*", OWNER="root", MODE="0666"
+

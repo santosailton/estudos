@@ -1,0 +1,7 @@
+https://aws.amazon.com/pt/serverless/#:~:text=Serverless%20is%20the%20native%20architecture,services%20without%20thinking%20about%20servers.
+https://aws.amazon.com/pt/serverless/getting-started/?serverless.sort-by=item.additionalFields.createdDate&serverless.sort-order=desc
+https://aws.amazon.com/pt/lambda/serverless-architectures-learn-more/
+https://aws.amazon.com/pt/blogs/compute/best-practices-for-organizing-larger-serverless-applications/
+https://docs.aws.amazon.com/lambda/latest/dg/lambda-functions.html
+https://aws.amazon.com/pt/blogs/architecture/ten-things-serverless-architects-should-know/
+https://alienattack.workshop.aws/en/

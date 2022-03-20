@@ -1,0 +1,44 @@
+﻿O que define a arquitetura de um sistema distribuído?
+
+I - As relações entre estes componentes;
+
+II - A divisão de responsabilidades (ex. cliente, servidor);
+
+III - A localização dos componentes do sistema;
+
+IV - Como estas componentes são mapeados para a infra-estrutura de rede
+E 	
+Todas estão são corretas.
+________________________________________________________________________________________________________________________________________________________________________________________
+Com o passar dos anos, as aplicações empresariais evoluíram de aplicações monolíticas executando em computadores de grande porte, para aplicações do tipo cliente-servidor e, então, para aplicações em camadas. No caso de aplicação em três camadas, quais os nomes destas camadas?
+B 	
+Cliente, servidor de aplicação, servidor de banco de dados.
+________________________________________________________________________________________________________________________________________________________________________________________
+As arquiteturas multidivididas sugerem várias possibilidades para a distribuição física por várias máquinas; a organização mais simples é ter só dois tipos de máquinas. Como chamamos essas duas máquinas?
+A 	
+Cliente e servidor.
+________________________________________________________________________________________________________________________________________________________________________________________
+Quais são as principais caracteristicas das arquiteturas Peer-to-Peer?
+
+I - Existem uma distinção clara entre cliente e servidor;
+
+II - Um peer pode ser ora cliente, ora servidor;
+
+III - Os hosts do SD atuam cooperativamente; 
+
+IV - Garante a robustez no caso de falhas devido a replicação dos dados através de múltiplos pares.
+A 	
+Somente a I esta correta.
+________________________________________________________________________________________________________________________________________________________________________________________
+Quais das opções abaixo representam tipo de arquiteturas em Sistemas Distribuídos?
+
+I - Arquitetura em camadas;
+
+II - Arquitetura baseada em objetos;
+
+III - Arquitetura centrada em dados;
+
+IV - Arquitetura baseada em publicação.
+C 	
+Somente I, II e III estão corretas.
+________________________________________________________________________________________________________________________________________________________________________________________

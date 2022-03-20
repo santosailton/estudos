@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ailton/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/57b6895a340ac9af5d0e8bc681d19c62/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04ad3c24c831acd7abf5599ddd8f4a43/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a4e77962ca1758d21f7a6e6183deaa7c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8b6591e892493572ef2ee30e7ebbf0d2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7c67652a7ee62acd8573f546e6f4b29/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dacca3e7bdb6fee1b5ff8dd21d4474ab/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8ba81287e85b9ba5585943138beccbea/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6594746172e2636057101022da68a857/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7dc9725fee7ad0dec78907a325d65794/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ailton/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/57b6895a340ac9af5d0e8bc681d19c62/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ailton/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/57b6895a340ac9af5d0e8bc681d19c62/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04ad3c24c831acd7abf5599ddd8f4a43/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04ad3c24c831acd7abf5599ddd8f4a43/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a4e77962ca1758d21f7a6e6183deaa7c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a4e77962ca1758d21f7a6e6183deaa7c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8b6591e892493572ef2ee30e7ebbf0d2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8b6591e892493572ef2ee30e7ebbf0d2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7c67652a7ee62acd8573f546e6f4b29/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7c67652a7ee62acd8573f546e6f4b29/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dacca3e7bdb6fee1b5ff8dd21d4474ab/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dacca3e7bdb6fee1b5ff8dd21d4474ab/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8ba81287e85b9ba5585943138beccbea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8ba81287e85b9ba5585943138beccbea/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6594746172e2636057101022da68a857/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6594746172e2636057101022da68a857/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7dc9725fee7ad0dec78907a325d65794/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7dc9725fee7ad0dec78907a325d65794/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.ailton.aulaappsendsms.MainActivity
+ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ailton/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/57b6895a340ac9af5d0e8bc681d19c62/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ailton/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/57b6895a340ac9af5d0e8bc681d19c62/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04ad3c24c831acd7abf5599ddd8f4a43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04ad3c24c831acd7abf5599ddd8f4a43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a4e77962ca1758d21f7a6e6183deaa7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a4e77962ca1758d21f7a6e6183deaa7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8b6591e892493572ef2ee30e7ebbf0d2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8b6591e892493572ef2ee30e7ebbf0d2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7c67652a7ee62acd8573f546e6f4b29/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7c67652a7ee62acd8573f546e6f4b29/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dacca3e7bdb6fee1b5ff8dd21d4474ab/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dacca3e7bdb6fee1b5ff8dd21d4474ab/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8ba81287e85b9ba5585943138beccbea/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8ba81287e85b9ba5585943138beccbea/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6594746172e2636057101022da68a857/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6594746172e2636057101022da68a857/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7dc9725fee7ad0dec78907a325d65794/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7dc9725fee7ad0dec78907a325d65794/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+		ADDED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ailton/eclipse-workspace/Android/AulaAppSendSMS/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04ad3c24c831acd7abf5599ddd8f4a43/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04ad3c24c831acd7abf5599ddd8f4a43/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a4e77962ca1758d21f7a6e6183deaa7c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a4e77962ca1758d21f7a6e6183deaa7c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8b6591e892493572ef2ee30e7ebbf0d2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/8b6591e892493572ef2ee30e7ebbf0d2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7c67652a7ee62acd8573f546e6f4b29/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b7c67652a7ee62acd8573f546e6f4b29/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dacca3e7bdb6fee1b5ff8dd21d4474ab/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dacca3e7bdb6fee1b5ff8dd21d4474ab/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8ba81287e85b9ba5585943138beccbea/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/8ba81287e85b9ba5585943138beccbea/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6594746172e2636057101022da68a857/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6594746172e2636057101022da68a857/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7dc9725fee7ad0dec78907a325d65794/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7dc9725fee7ad0dec78907a325d65794/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6354a102caf30ec5e0e932e00d152332/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ailton/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c30a101be64e3ce0531123596f37cec0/AndroidManifest.xml:26:13-58

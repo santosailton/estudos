@@ -1,0 +1,26 @@
+homem(anakin_skywalker).
+homem(luke_skywalker).
+homem(hans_solo).
+homem(kilo_ren).
+
+mulher(padme_amidala).
+mulher(lea_organa).
+mulher(rey).
+
+progenitor(anakin_skywalker,luke_skywalker).
+progenitor(anakin_skywalker,lea_organa).
+progenitor(padme_amidala,luke_skywalker).
+progenitor(padme_amidala,lea_organa).
+progenitor(hans_solo,kilo_ren).
+progenitor(lea_organa,kilo_ren).
+
+pai(X,Y) :- progenitor(X,Y),
+            homem(X).
+mae(X,Y) :- progenitor(X,Y),
+            mulher(X).
+filho(X,Y) :- progenitor(Y,X),
+                homem(X).
+filha(X,Y) :- progenitor(Y,X),
+            mulher(X).
+irmaos(X,Y) :- progenitor(Z,X),
+                progenitor(Z,Y).

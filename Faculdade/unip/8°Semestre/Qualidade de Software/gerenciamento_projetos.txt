@@ -1,0 +1,44 @@
+﻿============== GERENCIAMENTO DE PROJETOS
+tópicos a ser discutidos:
+
+--gerenciamento de riscos
+--gerenciamento de pessoas
+--trabalho em equipe
+
+
+O que é?
+Qual a importância?
+Como funciona?
+
+*GERENCIAMENTO DE PROJETOS
+	É uma forma de garantir que quesitos organizacionais e de orçamentos sejam cumpridos
+	Metas importantes para gerenciamento de projeto:
+		- Fornecer software ao cliente no prazo estabelecido
+		- Manter custos gerais dentro dos orçamentos
+		- Entregar software que atenda as expectativas do cliente(requisitos)
+		- Manter a equipe trabalhando de maneira feliz
+		
+	Por falta de um padrão no desenvolvimento de cada projeto, 
+	algumas responsabilidades são fixas para acompanhamento e organização da gerencia:
+		- Planejamento de projeto: cronograma, atribuição de tarefas, supervisão dos trabalhos.
+		- Geração de relatórios: relatórios referentes ao andamento do projeto para os clientes
+		- Gerenciar riscos: avaliar possíveis riscos ao projeto para ter um controle quando surgirem
+		- Gerenciamento de pessoas: responsáveis também pela escolha das pessoas que irão trabalhar 
+			para que tenha um desempenho eficaz na equipe
+		- Elaboração de propostas: etapa responsável por elaborar objetivos do projeto e como será realizado
+		
+		
+*GERENCIAMENTO DE RISCOS
+O QUE É: risco é algo que preferível que não aconteça
+QUAL A IMPORTÂNCIA: avaliar riscos que podem afetar cronograma do projeto, qualidade do projeto ou a organização.
+		
+3 Tipos que o categorizam:
+	- Riscos de projeto: algo que afeta o projeto, cronograma ou recursos. ex: falta de um funcionário profissional
+	- Riscos de produto: algo que afeta a qualidade ou desempenho do software. ex: serviço não otimizado.
+	- Riscos de Negócio: é algo que afeta o produto desenvolvido ou adquirido pela empresa. ex: produto similar lançado.
+				
+Maneira de se preparar para possíveis riscos:
+	- Identificação de riscos: identificar possíveis riscos de projeto de produto ou de negocio
+	- Análise de riscos: avaliar a probabilidade e as consequências desses riscos
+	- Planejamento de riscos: planejamento para enfrentar o risco, evitando ou minimizando seus defeitos sobre o projeto
+	- Monitoramento de riscos: avaliar regularmente os riscos e seus planos para aliviar-se deles.

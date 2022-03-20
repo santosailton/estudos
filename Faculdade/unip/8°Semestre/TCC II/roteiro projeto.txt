@@ -1,0 +1,7 @@
+Configure o nosso circuito de arduino
+Certifique-se de que temos o Pyduino configurado
+Crie o nosso servidor web e teste-o
+Ligue o nosso arduino ao nosso servidor web
+Controle nosso arduino com nosso celular
+Lucro!
+Criar interface básica da web-api

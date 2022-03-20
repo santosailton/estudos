@@ -1,0 +1,34 @@
+﻿Dispor de facilidades poderosas e flexíveis para comunicação entre processos é essencial para qualquer sistema distribuído. Em aplicações tradicionais de rede, a comunicação costuma ser baseada nas primitivas de troca de mensagens de baixo nível oferecidas pela camada de transporte. Uma questão importante em sistemas middleware é oferecer um nível mais alto de abstração que facilitará expressar comunicação entre processos mais do que o suporte oferecido pela interface com a camada de transporte. Uma das abstrações mais amplamente utilizadas é a chamada de procedimento remoto (RPC). A essência de um RPC é que um serviço é implementado por meio de um procedimento cujo corpo é executado por um:
+B 	
+Servidor.
+________________________________________________________________________________________________________________________________________________________________________________________
+POSCOMP 2006
+
+A comunicação entre processos em um sistema distribuído pode ser realizada por um mecanismo conhecido como RPC - chamada de procedimento remoto. Sobre este mecanismo, assinale a opção correta abaixo:
+B 	
+Os stubs cliente e servidor são responsáveis pela conversão de formato dos parâmetros de entrada e saída, caso haja necessidade.
+________________________________________________________________________________________________________________________________________________________________________________________
+POSCOMP 2006
+
+Um sistema distribuído pode manter diferentes cópias de um mesmo item de dado a fim de melhorar o desempenho de leitura e aumentar a disponibilidade de acesso. A modificação deste item de dado é realizada de acordo com protocolos de consistência de cópias. Assinale a alternativa correta sobre esses protocolos.
+E 	
+No protocolo de replicação ativa, todas as réplicas são atualizadas através de uma única operação de escrita realizada por um mecanismo de multicast totalmente ordenado.
+________________________________________________________________________________________________________________________________________________________________________________________
+POSCOMP 2003
+
+Algoritmos distribuídos podem usar passagem de "token" por um anel lógico para implementar exclusão mútua ou ordenação global de mensagens. Nesses algoritmos, apenas o processo que possui o "token" tem a permissão de usar um recurso compartilhado ou numerar mensagens, por exemplo. Considerando o conceito acima podemos afirmar que:
+A 	
+A abordagem deve tratar no mínimo dois tipos de defeitos: perda do "token" e colapso de processos.
+________________________________________________________________________________________________________________________________________________________________________________________
+Para que um cliente envie mensagens a um servidor, primeiro o cliente, deve necessariamente conhecer  o endereço do servidor, desse modo, é preciso estabelecer um esquema de identificação. Quais são esses mecanismos?
+
+I - Identificador único de processo quando na mesma máquina;
+
+II - Endereçamento indicando o processo e a máquina;
+
+III - Processos escolhem endereços que são detectados por broadcast
+
+IV - Uso de DNS.
+A 	
+Somente a I esta correta.
+________________________________________________________________________________________________________________________________________________________________________________________

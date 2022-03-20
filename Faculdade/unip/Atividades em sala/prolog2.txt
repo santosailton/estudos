@@ -1,0 +1,7 @@
+a. matador(butch).
+b. casados(mia,marsellus).
+	casados(X,Y) :- casados(Y,X).
+c. morto(zed).
+d. mata(marselluus,X):-massagemNoPE(x,mia).
+e. ama(mia,y):-bom_dancarino(y).
+f. come(julie, x):- nutritivo(x); gostoso(x).

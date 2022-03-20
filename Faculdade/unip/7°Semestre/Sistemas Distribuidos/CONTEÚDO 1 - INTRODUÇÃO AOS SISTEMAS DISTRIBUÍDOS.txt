@@ -1,0 +1,33 @@
+﻿Qual a definição de um Sistema Distribuído?
+E 
+Conjunto de computadores independentes, interconectados por uma rede de comunicação, que se apresenta a seus usuários como um sistema de imagem único.
+________________________________________________________________________________________________________________________________________________________________________________________
+Quais os motivos para se utilizar um Sistema Distribuído?
+D 	
+Compartilhamento de recursos, aumento de velocidade de computação, confiabilidade, comunicação.
+________________________________________________________________________________________________________________________________________________________________________________________
+Um sistema distribuído que é capaz de se apresentar a usuários e aplicações como se fosse apenas um único sistema de computador é denominado...
+B 	
+Transparente.
+________________________________________________________________________________________________________________________________________________________________________________________
+Em sistemas computacionais com múltiplos processadores os sistemas distribuídos se caracterizam por:
+E 	
+Formados por computadores comuns que compartilham a memória RAM. Formados por computadores completos sobre uma rede de longa distância como a internet, permitindo a utilização de computadores espalhados pelo mundo para o processamento de uma aplicação.
+________________________________________________________________________________________________________________________________________________________________________________________
+Para suportar computadores e redes heterogêneos e, simultaneamente, oferecer uma visão de sistema único, os sistemas distribuídos costumam ser organizados por meio de uma camada de software que é situada logicamente entre uma camada de nível mais alto, composta de usuários e aplicações, e uma camada subjacente, que consiste em sistemas operacionais e facilidades básicas de comunicação. Tal camada é denominada...
+D 	
+Middleware.
+________________________________________________________________________________________________________________________________________________________________________________________
+Podemos afirmar sobre sistemas paralelos e sistemas distribuídos.
+E 	
+Todas as alternativas estão corretas.
+
+________________________________________________________________________________________________________________________________________________________________________________________
+
+O desenvolvimento de software é marcado pela mudança de paradigmas. Em um primeiro momento surgiu o modelo estruturado, a seguir o modelo orientado a objetos, o modelo orientado a aspectos também faz parte da lista, não vamos esquecer da computação em nuvens, agora a moda é o desenvolvimento orientado a serviços, mas se observamos ao nosso redor, a forma como as pessoas estão interagindo com seus celulares, tables, notebooks com sensibilidade ao toque da tela, será que nós desenvolvedores de software não estamos caminhando para uma nova forma de fazer software. A conectividade está impregnada ao nosso redor, pode estar no nosso carro, nos eletrônicos da nossa casa, quanto tempo será necessário para através do nosso celular possamos controlar tudo o que está ao nosso redor?. Recentemente um grupo de pesquisadores americanos apresentaram um experimento de transferência de pensamentos entre duas pessoas a certa distância. Será que o conceito de sistemas distribuídos tem alguma relação com as tendências relatadas pelo texto?
+
+Qual a alternativa correta?
+
+B 	
+O conceito de sistemas distribuídos trata de um ambiente onde computadores independentes apresentem á seus usuários um sistema único e coerente. Só se percebe a existência de um sistema distribuído quando a falha de um computador do qual você nunca ouviu falar faz com que o seu trabalho seja interrompido. Quando tratamos do tema conectividade para o usuário não importa a forma como se esta interagindo com os diversos dispositivos. No caso dos sistemas distribuídos móvel e pervasivos, a instabilidade é o comportamento esperado, bem como a heterogeneidade de rede e dispositivos, a segurança também é um problema grave.
+________________________________________________________________________________________________________________________________________________________________________________________

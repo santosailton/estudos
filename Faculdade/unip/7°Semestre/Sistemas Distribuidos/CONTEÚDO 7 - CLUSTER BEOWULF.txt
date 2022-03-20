@@ -1,0 +1,28 @@
+As afirmativas a seguir se referem a características marcantes dos Supercomputadores e dos clusters Beowulf:
+I - Altíssimo custo;
+II - Utiliza hardware popular;
+III - Softwares proprietários;
+IV - Total dependência de fornecedores;
+V - Independência de fornecedores;
+VI - Facilidade de Manutenção e Ampliação;
+VII - Dificuldade de atualização;
+VIII - Sistema Operacional Aberto (Linux).
+Defina quais são as alternativas relacionadas a cada tipo de estrutura.
+E
+Supercomputadores ( I, III, IV ,VII) e Cluster (II, V, VI, VIII).
+________________________________________________________________________________________________________________________________________________________________________________________
+O sistema de arquivos de um Cluster Beowulf deve ser capaz de compartilhar os seus arquivos de forma transparente entre o mestre(servidor) e os nós (escravos). Qual o sistema de arquivos utilizado?
+D 	
+Sistema de arquivos em rede utilizado para compartilhar o arquivo que deverá ser executado pelo cluster, entre todos os nós participantes NFS.
+________________________________________________________________________________________________________________________________________________________________________________________
+Um Cluster é formado por um conjunto de computadores interligados através de uma rede, as máquinas membros deste cluster são denominadas nó ou node; na maioria das vezes o cluster é formado por computadores convencionais e se apresenta de forma transparente ao usuário, como sendo um único computador de grande porte; De acordo com Zem (2005), quais são os tipos de cluster mais utilizados atualmente?
+B 	
+Cluster de Alto Desempenho, Cluster de Alta Disponibilidade (High Availability - HA) e Cluster de Balanceamento de Carga (Horizontal Scaling - HS).
+________________________________________________________________________________________________________________________________________________________________________________________
+Qual a biblioteca de passagem utilizada pelo Cluster Beowulf?
+A 	
+Mpich.
+________________________________________________________________________________________________________________________________________________________________________________________
+Qual a função da biblioteca de passagem Mpich?
+A 	
+A biblioteca de troca de mensagens deve conter um conjunto de funções que serão utilizadas para distribuir o processamento entre as diversas máquinas do cluster.

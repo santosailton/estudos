@@ -1,0 +1,167 @@
+Só uma leve explicação. Deve-se saber a diferença entre classe, objeto e instância.
+Em C, não temos nada disso. Uma variável é só uma variável. Pense nisso como uma namorada. 
+Você diz que tem uma namorada, mas C não se importa. Você diz que tem uma namorada, tá OK.
+Em Java, você tem a classe. É uma representação do que uma coisa possui. Namorada, no caso, é uma classe. 
+Ela tem atributos e métodos que, às vezes, só ela entende. Tá ok. Você diz que tem uma namorada. 
+Isso é um objeto, mas para que possa utilizá-la, é preciso que ela exista. Se ela existe, tudo bem. 
+Mas se não, com certeza dará uma bela NullPointerException: você possui um objeto, mas ele não aponta pra nada.
+Tudo explicado, vamos lá.
+
+-- Application.java
+
+É a classe que roda a aplicação toda. 
+Ela é a base do Spring Boot, que é a parte da suite Spring que serve para rodar uma aplicação sem a necessidade de instalar ou configurar um servidor.
+Esse @ em cima da classe é chamado de tag. Ele é na verdade uma versão reduzida de um monte de coisa que o Java faz por baixo. 
+@SpringBootApplication avisa o Java que quem vai cuidar dessa classe é o Spring Boot.
+O método main ("principal"), faz o Spring rodar, avisando que quem será executada é a própria classe que chamou.
+@Bean avisa ao Spring que o método a seguir é uma instância que o próprio Spring tem que gerenciar.
+O método corsConfigurer configura o CORS para aceitar requisiçoes de qualquer endereço. O CORS eu não faço ideia até hoje do que raio seria, mas sei que é uma proteção que uma API tem de não aceitar requisições de qualquer fonte. (Esse método é configurado principalmente em ambiente de teste de integração de frontend e backend, quando os dois são feitos com tecnologias diferentes. Era o caso quando eu usava Angular, que rodava na porta 4200, e tentava usar uma API na porta 8080 feita com Java. Não tente entender agora. Só use.)
+
+-- Cidade.java e Previsao.java
+
+Para entender a necessidade dessas classes, vamos entender a estrutura do que vem no XML da Api do INPE.
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cidade>
+	<nome>Araraquara</nome>
+	<uf>SP</uf>
+	<atualizacao>2018-09-15</atualizacao>
+	<previsao>
+		<dia>2018-09-16</dia>
+		<tempo>pt</tempo>
+		<maxima>29</maxima>
+		<minima>14</minima>
+		<iuv>9.0</iuv>
+	</previsao>
+
+	<previsao>
+		<dia>2018-09-17</dia>
+		<tempo>np</tempo>
+		<maxima>24</maxima>
+		<minima>15</minima>
+		<iuv>9.0</iuv>
+	</previsao>
+
+	<previsao>
+		<dia>2018-09-18</dia>
+		<tempo>vn</tempo>
+		<maxima>27</maxima>
+		<minima>14</minima>
+		<iuv>10.0</iuv>
+	</previsao>
+
+	<previsao>
+		<dia>2018-09-19</dia>
+		<tempo>pn</tempo>
+		<maxima>31</maxima>
+		<minima>16</minima>
+		<iuv>10.0</iuv>
+	</previsao>
+</cidade>
+
+A primeira linha diz que o documento é um XML. Simples, não?
+A segunda linha abre a seção de CIDADE, que contém o nome, o estado (UF), quando foi feita a atualização DO ARQUIVO no servidor (e não quando foi feita a REQUISIÇÃO) e as previsões dos próximos dias. Dessas informações, já temos os atributos da classe Cidade: nome, uf, atualizacao e previsao (que é uma lista pois temos 4). 
+Na classe Cidade, @XmlElement diz ao JAXB que tal variável é uma tag dentro do arquivo XML; já @XmlRootElement diz ao JAXB que a classe é a tag-base do arquivo XML (no caso, a tag <cidade>). 
+JAXB é uma biblioteca do Java que serve para manipular arquivos XML. 
+@XmlJavaTypeAdapter diz ao JAXB que tal variável precisa passar por um tratamento para fazer com que a informação contida no XML seja armazenada corretamente. No caso, foi feita a tradução de uma string vinda do XML para uma LocalDate. 
+A classe LocalDate foi criada no Java 7/8 para substituir a classe Date, muito ruim para guardar datas.
+previsao (variável) é uma lista de Previsao (classe). 
+Vamos à Previsao.java. Ela possui as 5 tags do XML que há dentro de cada <previsao>: dia, tempo, maxima, minima e iuv. 
+@XmlType diz ao JAXB que a classe é uma tag que está dentro de outra (no caso, <previsao> está dentro de <cidade>), e propOrder diz que as tags dentro de <previsao> são equivalentes às variáveis na ordem seguinte ("dia", "tempo", "tempMaxima", "tempMinima", "indiceUV").
+
+Você talvez não percebeu, mas todas as variáveis em Cidade.java e Previsao.java não tem nem private, nem public. Isso em Java se chama Package Private. Ele é o segundo na classificação de segurança de variável no mundo Java, que segue private > package private > protected > public. Quando private, uma variável só pode ser acessada/modificada por métodos da própria classe; quando package private, uma variável só pode ser modificada por métodos de classes que estão no mesmo package ("pacote"; no caso, na mesma pasta); quando protected, uma variável só pode ser modificada por métodos da própria classe ou classes herdadas (usando "extends"); e quando é public, FODA-SE!!
+
+-- LocalDateAdapter.java
+
+É a classe que adapta strings para LocalDate e vice-versa. Ela implementa dois métodos. Marshal quer dizer passar de Java para XML, e unmarshal, de XML para Java. Tipos mais primitivos, como strings e integers, são facilmente convertidos de XML para Java; já tipos mais sofisticados, como LocalDate e BigDecimal (classe especial para lidar com decimais e números muito grandes), precisam daquele tratamento especial mencionado anteriormente.
+
+-- LocalDateDayComparisor.java
+
+É uma classe que compara duas datas. Utilizada apenas para verificar se há a previsão de hoje no endpoint "previsao/hoje".
+
+-- PrevisaoApi.java
+
+É aqui que os endpoints serão escritos.
+Endpoint é todo método que recebe uma requisição externa HTTP. Hã? Vamos lá. A classe tem dois métodos: get() e getPrevisaoDeHoje(). Perceba a tag @GetMapping em cima dos dois. Isso quer dizer que esses métodos serão responsáveis pelas requisições GET vindas da rede. Mas cada um vai responder num endereço diferente. Dois endereços diferentes, ainda que por um mesmo método HTTP, significa dois endpoints diferentes. Há também as tags @DeleteMapping, para exclusões, @PostMapping para inserções e @PutMapping para updates.
+@RestController avisa ao Spring que tal classe é um controlador de requisições Rest, e @RequestMapping diz que a classe tem a capacidade de receber requisições HTTP através do endereço entre parênteses (no caso, "localhost:8080/previsao").
+Perceba que get() não tem endereço especificado, e getPrevisaoDeHoje(), tem. Isso indica que o primeiro método responderá por requisições GET no endereço raiz ("localhost:8080/previsao"), e o segundo, deverá adicionar uma barra e o restante do endereço para que funcione ("localhost:8080/previsao/hoje").
+
+Nota: localhost:8080/previsao retorna um XML. Para que se encaixe no requisito de retorno em JSON, deverá ser usada uma biblioteca que fará essa conversão.
+
+-- Parser.java
+
+Essa vai ser difícil, mas vamos lá.
+Essa é a classe que vai fazer o Unmarshalling: vai pegar o XML vindo da API do INPE e tentar extrair as informações dele.
+
+Vamos começar pela parte fácil. getPrevisaoDeHoje() pega as previsões trazidas pelo XML e compara com a data de hoje. Se há a previsão de hoje, aparece na tela a previsão. Simples.
+
+Agora vamos por partes. O método getPrevisao() retorna um objeto da classe Cidade, e "atira" uma exceção do tipo JAXBException. Isso significa que se o unmarshalling não der certo, não será essa classe que vai tratar o erro; ela vai repassar pra classe que a chamou (no caso, ou getPrevisaoDeHoje() nesta mesma classe, ou get(), na classe PrevisaoApi). É uma forma de não implementar o try-catch.
+Falando nele, é o que acontece primeiro neste método. Mas o que é comum é:
+
+try{
+	alguma coisa;
+} catch (Exception e){
+	tratamento do erro;
+}
+
+Esse try que contém argumentos é chamado de "try with resources" ("try" com recursos). É utilizado para inicializar coisas que serão usadas dentro do try e que precisam ser fechadas quando ele acabar (um uso comum é a comunicação com banco de dados, que precisa abrir e fechar uma conexão). No caso, ele usa um cliente HTTP, que vai fazer a requisição na API do INPE e vai retornar uma resposta. Tanto o cliente quanto a resposta são "fecháveis" (Closeable), significando que nenhum ficará vivo quando acabar o try. 
+
+CloseableHttpClient cli = HttpClients.createDefault();
+Cria um cliente HTTP...
+
+CloseableHttpResponse resp = cli.execute(new HttpGet("http://servicos.cptec.inpe.br/XML/cidade/586/previsao.xml"));
+...que vai executar um requisição à API do INPE e vai guardar a resposta, sabe-se lá o que realmente é tal resposta. 
+
+HttpEntity entity = resp.getEntity();
+Sabe-se lá o que tem na resposta, então vamos preparar essa resposta pra podermos mexer nela.
+
+String resposta = EntityUtils.toString(entity);
+Ok, sabemos que a resposta é um XML. Mas como extraímos isso de uma resposta HTTP? Vamos primeiro transformar a resposta numa string.
+
+Path pathXMLFile = Paths.get("previsao.xml");
+Cria-se um caminho de arquivo na pasta do projeto chamado "previsao.xml"...
+
+Files.write(pathXMLFile, resposta.getBytes(), StandardOpenOption.WRITE, StandardOpenOption.APPEND, StandardOpenOption.CREATE);
+...e escreve num arquivo a string retirada da resposta. ~.WRITE diz que tem que abrir o arquivo, ~.APPEND diz que a resposta tem que concatenar (deve juntar, e nunca substituir o que já estava escrito) a resposta, e ^.CREATE diz que, se não há o arquivo, ele deve ser criado.
+
+Se tudo deu certo, haverá um arquivo previsao.xml no projeto que será usado nos próximos passos.
+
+File fileXml = new File("previsao.xml");
+Carrega tal arquivo para ser manipulado.
+
+JAXBContext jaxb = JAXBContext.newInstance(Cidade.class);
+Inicializa o JAXB pra poder fazer a extração do XML, e colocar numa instância de Cidade.
+
+Unmarshaller unmarshaller = jaxb.createUnmarshaller();
+Cria um cara que vai transformar o XML em algo útil ao programa.
+
+Cidade cidade = (Cidade) unmarshaller.unmarshal(fileXml);
+Converte as informações dentro do arquivo XML em informações dentro da intância da classe Cidade.
+
+fileXml.delete();
+return cidade;
+Deleta o arquivo da pasta do projeto e retorna a instância pra classe que chamou.
+
+-- pom.xml
+
+É o arquivo que diz as propriedades do projeto.
+
+<modelVersion> diz a versão de modelo XML utilizado para contruir o POM.
+
+<groupId> diz qual é a identificação de grupo. É regra colocar os domínios da empresa, como exemplo "com.dxc"
+
+<artifactId> diz qual é o nome do projeto. Exemplo seria "chatbot"
+
+Os dois últimos são utilizados para dar o nome básico das pastas dentro do projeto. Entidades por exemplo poderiam estar dentro de "com.dxc.chatbot.entities".
+
+<version> é a versão do seu aplicativo.
+
+<properties> é onde se coloca propriedades de compilação. <maven.compiler.source> diz que o programa foi feito com Java 8, e <maven.compiler.target> diz que só vai funcionar em computadores com Java 8 ou posterior.
+
+<dependencies> é onde você coloca as dependências do projeto. É aqui que se coloca as bibliotecas utilizadas durante a construção do projeto, mas sem precisar baixá-las manualmente. Quando utilizada, a tag <dependencies> influi o Maven a baixar as dependências e deixar tudo pronto para o programa poder rodar. Neste projeto temos três dependências:
+
+javax.xml.bind.jaxb-api, que é utilizada para fazer o unmarshal do XML;
+
+org.apache.httpcomponents.httpclient, que é utilizada para fazer a comunicação com a API do INPE; e
+
+org.springframework.boot.spring-boot-starter-web, que é utilizada para poder fazer a execução da programa sem instalar um servidor. Ou acaso você não percebeu que durante a execução do programa aparece um tal de Tomcat? É o servidor utilizado para rodar o programa. É ele que permite a utlização do endereço localhost:8080.

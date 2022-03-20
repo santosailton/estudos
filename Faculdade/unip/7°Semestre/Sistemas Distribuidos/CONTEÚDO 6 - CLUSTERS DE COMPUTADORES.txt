@@ -1,0 +1,38 @@
+﻿Qual a definição de um cluster de Alta Performance?
+C 	
+Tipo de sistema para processamento paralelo ou distribuído que consiste de uma coleção de computadores interconectados, trabalhando juntos como um recurso de computação simples e integrado. Constituído de vários nós escravos, controlados por um computador mestre, ao qual se tem acesso direto. O computador mestre é o responsável pela distribuição das tarefas. Os escravos limitam-se a processar os dados que lhes são enviados.
+________________________________________________________________________________________________________________________________________________________________________________________
+No processo de execução de um cluster qual a função da biblioteca PVM?
+C 	
+Gerenciar a troca de mensagens entre os nós e o mestre.
+________________________________________________________________________________________________________________________________________________________________________________________
+No início da computação a grande preocupação estava voltada  para o desenvolvimento do hardware, que era muito caro e sem um fim que justifica-se tal investimento, muitas fases se passaram com resultados assombrosos do ponto de vista da evolução tecnológica. De uma máquina que custava milhões de dólares e executava uma instrução por segundo, chegamos a máquinas que custam mil dólares e podem executar um bilhão de instruções por segundo, um ganho preço/desempenho de 10 elevado a 13. O segundo desenvolvimento marcante foram as redes de computadores. O resultado dessas evoluções tecnológicas foi à possibilidade de se montar sistemas de computação compostos por grandes quantidades de computadores conectados por uma rede de alta velocidade. Como os sistemas distribuídos se encaixam neste contexto.
+B 	
+São compostos por um conjunto de computadores independentes que se apresentam a seus usuários como um sistema único e coerente.
+________________________________________________________________________________________________________________________________________________________________________________________
+A estrutura de agrupamento de computadores apresenta vantagens competitivas em relação aos ambientes multiprocessados de memória compartilhada (computadores com diversos processadores em uma placa-mãe), permitindo que o acréscimo de computadores torne o sistema mais rápido, possuindo componentes de fácil disponibilidade e manutenção. A afirmação se refere a:
+B 	
+Cluster de alto-desempenho.
+________________________________________________________________________________________________________________________________________________________________________________________
+Qual a definição de um cluster de Alto Desempenho, que utiliza a biblioteca de passagem de mensagem MPI?
+D 	
+Tipo de sistema para processamento paralelo ou distribuído que consiste de uma coleção de computadores interconectados, trabalhando juntos como um recurso de computação simples e integrado. Constituído de vários nós escravos, controlados por um computador mestre, ao qual se tem acesso direto. O computador mestre é o responsável pela distribuição das tarefas. Os escravos limitam-se a processar os dados que lhes são enviados.
+________________________________________________________________________________________________________________________________________________________________________________________
+Petrobras 2012
+
+Um cluster tolerante à falha assegura que todos os recursos de um sistema estão sempre disponíveis. A função de trocar aplicações e recursos de armazenamento de dados de um sistema que falhou para um sistema alternativo do cluster é denominada
+E 	
+Failover.
+________________________________________________________________________________________________________________________________________________________________________________________
+Petrobrás 2012
+
+A organização de clusters constitui uma alternativa para os multiprocessadores simétricos. Dois principais objetivos ou requisitos de projeto desse tipo de organização são a escalabilidade.
+D 	
+Incremental e a alta disponibilidade.
+________________________________________________________________________________________________________________________________________________________________________________________
+Petrobras 2012
+
+A denominação SMP refere-se a um sistema de computador independente, no qual existem dois ou mais processadores similares com capacidade de computação comparável, que:
+A 	
+Compartilham a mesma memória principal e as facilidades de E/S (Entrada/Saída).
+________________________________________________________________________________________________________________________________________________________________________________________

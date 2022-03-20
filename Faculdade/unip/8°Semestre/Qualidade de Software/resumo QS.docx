@@ -1,0 +1,61 @@
+﻿
+CONFIANÇA
+
+O termo ‘confiança’ foi proposto por Laprie (1995) para cobrir os
+sistemas relacionados com atributos de disponibilidade, confiabilidade, segurança e proteção
+
+
+ao projetar um sistema confiável, você precisa considerar:
+Falha de hardware
+Falha de software
+Falha operacional
+
+CONFIANÇA – propriedades
+	Disponibilidade-serviço acessivel a qualquer instante
+	Confiabilidade-sistema prestar o serviço corretamente, sem muitas falhas
+	Segurança-danos a pessoas ou ambiente
+	Proteção-resitencia a invasões acidentais ou propositais
+
+Além das quatro principais(confiabilidade, segurança, disponibilidade, proteção), pode-se pensar em outras propriedades da confiança: 
+Reparabilidade:deve ser possível diagnosticar o
+problema, acessar o componente que falhou e fazer alterações para
+corrigir esse componente
+Capacidade de sobrevivência: é a capacidade de um sistema de continuar prestando
+serviço mesmo sob ataque e, potencialmente, enquanto parte do
+sistema é desativada.
+Tolerância a erros: Essa propriedade pode ser considerada parte da
+usabilidade, e reflete o grau em que o sistema foi projetado de modo a
+evitar e tolerar erros de entradas de usuário
+
+
+
+SISTEMAS CRITICOS
+3 tipos de sistemas críticos:
+Sistemas críticos de segurança: Sistemas cuja a falha pode resultar em
+prejuízo, danos sérios ou ao ambiente.
+Sistemas críticos de missão: Sistemas cuja falha pode causar problemas
+em objetivos, missões etc.
+Sistemas críticos de negócios: Sistemas em cuja a falha pode acarretar
+perdas financeiras em algum negócio.
+
+
+Processo de Projeto de sistema tempo real
+
+Seleção de plataforma
+Identificação de estímulos/resposta
+Análise de timing
+Projeto de processo
+Projeto de algoritmo
+Projeto de dados
+Programação de processo
+
+
+
+
+ESTIMATIVA/DESENVOLVIMENTO DE PROJETO
+3 modos de desenvolviemnto
+organico-projeto simples
+semidestacado-projeto intermediario
+embutido-projeto feito com restrições de hardware e software
+
+

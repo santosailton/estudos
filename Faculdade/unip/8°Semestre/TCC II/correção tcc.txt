@@ -1,0 +1,29 @@
+falta de segurança?
+	objetivo é AMENIZAR o risco de perda do veiculo
+objetivo? 
+	monitoramento para amenizar o tempo de recuperação do veiculo/aumentar chances de recuperação
+
+falta de internet?
+	não será necessário internet para sms, call e gps
+
+corte de combutivel?
+
+por que nao fazer integração com autoridades?
+
+	falha no sistema pode ocasionar acionamento indevido
+
+como fazer os testes?
+
+	com simulação de componentes!?
+	
+	
+comparação com sistemas existentes?
+
+MELHORAR QUALIDADE DOS SLIDES
+
+MELHORAR MANEIRA DE FALAR NA APRESENTAÇÃO
+
+
+-------------------------------------------------------
+site
+artigos

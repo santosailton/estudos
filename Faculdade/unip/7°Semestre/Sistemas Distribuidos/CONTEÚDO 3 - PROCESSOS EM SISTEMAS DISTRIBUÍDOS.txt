@@ -1,0 +1,63 @@
+﻿Uma questão importante, em especial em sistemas distribuídos de longa distância, é movimentar processos entre máquinas diferentes. Migração de processo, ou, mais especificamente migração de código, pode ajudar a conseguir escalabilidade, mas também pode ajudar a configurar dinamicamente clientes e servidores. Embora processos formem um bloco de construção em sistemas distribuídos, a prática indica que a granularidade de processos proporcionada pelos sistemas operacionais sobre os quais os sistemas distribuídos são construídos não é suficiente. Em vez disso, observa-se que ter granularidade mais fina sob a forma de múltiplos threads de controle por processo facilita muito a construção de aplicações distribuídas e a obtenção de melhor desempenho. Por que a utilização de threads em sistemas distribuídos pode ser interessante?
+A 	
+Porque podem proporcionar um meio conveniente de permitir chamadas bloqueadoras de sistema sem bloquear o processo inteiro no qual a thread está executando.
+________________________________________________________________________________________________________________________________________________________________________________________
+COMANDO DA AERONÁUTICA
+
+EXAME DE ADMISSÃO AO ESTÁGIO DE ADAPTAÇÃO DE FICIAIS TEMPORÁRIOS (EAOT 2009)
+
+ESPECIALIDADE: ANÁLISE DE SISTEMAS (ANS)
+
+Suponha que aplicações, usando base de dados, exigem acesso exclusivo a certa tabela e, para ganhar acesso exclusivo, pedem um travamento desta tabela. Se as uas aplicações clientes tentarem travar a mesma tabela ao mesmo tempo, então nem uma nem a outra aplicação receberá o acesso e a trava. Uma vez que não há meio geral para decidir para quem dar a trava, ambos os clientes esperarão eternamente pela mesma.” Em informática, assinale o nome dado para o resultado da suposição:
+B 	
+Deadlock.
+________________________________________________________________________________________________________________________________________________________________________________________
+COMANDO DA AERONÁUTICA
+
+EXAME DE ADMISSÃO AO ESTÁGIO DE ADAPTAÇÃO DE FICIAIS TEMPORÁRIOS (EAOT 2009)
+
+ESPECIALIDADE: ANÁLISE DE SISTEMAS (ANS)
+
+Sobre Thread, assinale a afirmativa correta:
+A 	
+Forma de um processo de dividir a si mesmo em duas ou mais tarefas que podem ser executadas simultaneamente.
+________________________________________________________________________________________________________________________________________________________________________________________
+POSCOMP 2011
+
+O gerenciamento de processos em sistemas modernos é feito, quase sempre, com o uso de preempção de processos através de técnicas de compartilhamento de tempo; o que a introdução de processadores com vários núcleos altera nesse gerenciamento?
+A 	
+Torna-se possível a paralelização efetiva de processos concorrentes.
+________________________________________________________________________________________________________________________________________________________________________________________
+POSCOMP 2008
+
+Analise as seguintes afirmativas.
+
+I. Uma arquitetura multithreading executa simultaneamente o código de diversos fluxos de instruções (threads).
+
+II. Em uma arquitetura VLIW, o controle da execução das várias instruções por ciclo de máquina é feito pelo compilador.
+
+III. Uma arquitetura superescalar depende de uma boa taxa de acerto do mecanismo de predição de desvio para obter um bom desempenho.
+
+IV. Os processadores vetoriais são um tipo de arquitetura SIMD.
+
+V. Um processador dual-core é mais eficiente em termos de consumo de energia do que dois processadores single-core de mesma tecnologia.
+
+A partir da análise, pode-se concluir que:
+A 	
+Apenas a afirmativa IV está correta.
+________________________________________________________________________________________________________________________________________________________________________________________
+POSCOMP 2007
+
+Considerando as diferenças existentes entre a execução de um algoritmo sequencial e a execução de um algoritmo distribuído, analise as seguintes afirmativas.
+
+I. Somente na execução sequencial de um algoritmo existe a possibilidade de ocorrer um deadlock.
+
+II. Um algoritmo sequencial apresenta mais de uma execução possível para uma dada entrada.
+
+III. Um algoritmo distribuído tem sua complexidade medida pela quantidade de mensagens transmitidas durante sua execução.
+
+IV. A execução de um algoritmo distribuído pode ser não determinística.
+
+A análise permite concluir que
+E 	
+Apenas a afirmativa IV é verdadeira.

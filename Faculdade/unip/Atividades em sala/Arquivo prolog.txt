@@ -1,0 +1,14 @@
+word(determiner, a).
+word(deternimer,every).
+word(noun, criminal).
+word(noun, 'big karuna burger').
+word(verb, eats).
+word(verb, likes).
+
+
+frase(W1,W2,W3,W4,W5) :- 
+    word(determiner, W1),
+    word(noun, W2),
+    word(verb, W3),
+    word(determiner, W4),
+    word(noun, W5).

@@ -1,0 +1,19 @@
+exercicios SOA
+
+1 - proteção de memória é um controle por parte do processador, que protege regiões de mememoria em uso, isto é importante para que outro não expanda sua area, assim invandindo uma região já usada.
+
+2 - multiprogramação é ter vários processos na memória, a memória é dividida uma partes fixas para o SO e outra para processos de usuario.
+
+3 - o endereçamento lógico é possui um espaço de endereçamento maior que o fisico, é formado por todos os endereços logicos gerados pelos processos, endereço lógico é enxergado pelos processos, já a memória física, é feita de circuitos e endereçado em formato hexadecimal, endereço fisico é reconhecido pelo hardware, para que aconteça a comunicação entre os endereços é usando a MMU que mapeia os endereços logicos em endereços fisicos.
+
+5 - mapa de bits
+	com mapa da bits a memória é dividida em unidades de alocação, cada unidade é representada por um bit que se for 0 a unidade está livre e 1 está ocupada
+
+6 - listas encadeadas
+	com a lista, é feito uma lista encadeada que contem os segmentos de memoria livres e encadeados
+
+7 - 
+
+8 - TLBs é um dispositivo de hardware cuja função é mapear os endereços virtuais em fisicos sem passar pela tabela de página, são formados por registradores que armazenam apenas numero de entradas das paginas mais utilizadas
+
+9 - 

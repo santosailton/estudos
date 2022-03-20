@@ -1,0 +1,2 @@
+https://web.stanford.edu/class/cs101/network-1-introduction.html
+https://www.ionos.com/digitalguide/server/know-how/cidr-classless-inter-domain-routing/

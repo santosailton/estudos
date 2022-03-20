@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Enviar SMS</string>
+    
+    <string name="txtTituloSMS">Dados para Envio</string>
+    <string name="txtHintPara">Para:</string>
+    <string name="txthintMensagem">Mensagem:</string>
+    <string name="btnEnviarSMS">Enviar</string>
+</resources>

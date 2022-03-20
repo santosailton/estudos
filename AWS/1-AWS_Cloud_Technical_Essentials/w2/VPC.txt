@@ -1,0 +1,5 @@
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html#CustomRouteTables
+https://docs.aws.amazon.com/vpn/latest/s2svpn/how_it_works.html#CustomerGateway
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html

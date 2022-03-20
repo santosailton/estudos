@@ -1,0 +1,4 @@
+2XX -> Respostas de sucesso
+3XX -> Mensagem de redirecionamento
+4XX -> Respostas de erro do cliente
+5XX -> Respostas de erro do servidor

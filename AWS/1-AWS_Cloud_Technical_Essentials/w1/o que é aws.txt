@@ -1,0 +1,3 @@
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-computing.html
+https://aws.amazon.com/pt/what-is-aws/
+https://aws.amazon.com/pt/what-is-cloud-computing/

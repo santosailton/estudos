@@ -1,0 +1,35 @@
+import numpy as np
+#module 1
+'''
+TIPOS DE DADOS
+STRINGS
+OPERACOES STRINGS
+'''
+#module 2
+'''
+LISTAS
+TUPLAS
+CONJUNTOS
+DICIONARIOS
+'''
+#module 3
+'''
+CONDICOES
+LOOPS
+FUNCOES
+OBJETOS E CLASSES
+'''
+#module 4
+'''
+READING FILES WITH OPEN
+WRITING FILES WITH OPEN
+LOADING DATA WITH PANDAS
+'''
+#module 5
+'''
+ARRAYS NUMPY
+'''
+A=np.array([[1,2],[3,4],[5,6],[7,8]])
+
+for a in A:
+    print(a)

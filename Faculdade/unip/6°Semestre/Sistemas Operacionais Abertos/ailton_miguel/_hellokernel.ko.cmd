@@ -1,0 +1,1 @@
+cmd_/home/ALUNOS/ailton_miguel/hellokernel.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.16.0-4-common/scripts/module-common.lds --build-id  -o /home/ALUNOS/ailton_miguel/hellokernel.ko /home/ALUNOS/ailton_miguel/hellokernel.o /home/ALUNOS/ailton_miguel/hellokernel.mod.o

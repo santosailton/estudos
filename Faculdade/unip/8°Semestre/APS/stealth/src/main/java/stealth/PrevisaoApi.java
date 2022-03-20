@@ -1,0 +1,24 @@
+package stealth;
+
+import javax.xml.bind.JAXBException;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/previsao") // http://localhost:8080/previsao/
+public class PrevisaoApi {
+
+	@GetMapping // http://localhost:8080/previsao/
+	public Cidade get() throws JAXBException {
+		return Parser.getPrevisao();
+	}
+
+	@GetMapping("/hoje") // http://localhost:8080/home/hoje/
+	public Previsao getPrevisaoDeHoje() throws JAXBException {
+		return Parser.getPrevisaoDeHoje();
+	}
+
+}

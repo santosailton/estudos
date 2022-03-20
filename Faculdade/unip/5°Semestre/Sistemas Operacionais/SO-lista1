@@ -1,0 +1,36 @@
+S.O
+
+BIOS-->BOOTLOADER-->Kernel-->S.O
+
+-->BIOS(realiza testes nos componentes físicos, emitindo bipes ao usuário caso algum problema seja identificado ou são exibidos na tela se possível; leitura do primeiro sector no HD (o MBR) onde estão as informações necessárias para encontrar o S.O, sector que possui no máximo 512bytes)
+-->BOOTLOADER(executando antes de ler qualquer partição, programa responsável para identificar e iniciar os S.O's)
+-->Kernel(é executado para ser abstraido as funções do hardware e então ser executado o SO em função dessas funções)
+
+-----------------Arquitetura de kernel
+
+	*ESPAÇO DE KERNEL; o SO opera no nivel maximo para prover de todos os recursos do hardware.
+	*ESPAÇO DE USUÁRIO; so, aplicativos, drivers, etc.
+
+Monolítico
+	É a arquitetura cujo as funcionalidades ocorrem no núcleo; Kernel possui todos os códigos dentro de si para as systemcalls
+Microkernel
+	É a arquitetura cujo a maioria das funcionalidades(systemscalls) ocorrem fora do núcleo, carregando o minimo de processos no kernel space.
+
+-----------------Gerenciamento de Processos
+
+Chamadas de sistemas(systemcalls)
+	São funções para solicitar serviços ao kernel do sistema operacional, com isso, são gerenciados processos, arquivos, memória, dispositivos e outras chamadas de sistema
+
+-----LISTA DE EXERCICIOS
+
+1--gerenciador de recursos porque o S.O gerencia processos, controla memória, discos e qual recurso será utilizado ou seja, o SO opera em um nivel mais baixo. Maquina Virtual porque é gerenciado pela aplicação e usuario, abstraindo recursos do hardware sem operar diretamente com processos, periféricos e outros recursos que somente o S.O consegue operar.
+
+2--diferentes de processos pesados, threads compartilham o mesmo endereçamento de memória, o que torna o consumo menor em relação à crianção de cada processo.
+
+3--compartilham variaveis globais porque uma thread necessita compartilhar informação para outra do mesmo processo, tornando as variáveis globais acessiveis à todas as threads do mesmo processo e as são usadas na pilha e o seg de texto(váriaveis locais) são alocados na pilha, no qual nenhuma outra thread a não ser a mesma pode acessa-la.
+
+4--
+
+15--o escalonador de processos, tem como função escolher qual processo tem maior e menor prioridade para ser colocado na cpu para execução, deixando outros em estado de pronto ou bloqueado para serem chaveado posteriormente, isso é feito de forma que se tenha o maior aproveitamento da cpu, para que ela não fique em nenhum momento num estado ocioso.
+
+16--FIFO; FCFS; executa até o fim.

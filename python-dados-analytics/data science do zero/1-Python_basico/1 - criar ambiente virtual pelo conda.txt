@@ -1,0 +1,7 @@
+conda create --name k35 python=3.7
+
+conda env list
+
+activate nome do ambiente
+
+deactivate nome do ambiente

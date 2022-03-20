@@ -1,0 +1,35 @@
+Qual(is) a(s) opção(ções) que descreve(m) a computação em grade? Assinale a alternativa correta:
+I - A computação distribuída passa a ser uma “Computação em Grade” no momento em que existe uma infra-estrutura física e uma infra-estrutura lógica (software) que permita coordenar os trabalhos que vão ser processados e garantir a sua qualidade de serviço. 
+II - O Grid é um caso particular da computação distribuída, uma vez que os Grids são orientados essencialmente para aplicações que precisam de uma grande capacidade de cálculos, ou enormes quantidades de dados transmitidos de um lado para o outro, ou as duas.
+III - O nome Grid foi idealizado baseado nas malhas de interligação dos sistemas de energia elétrica (power-grids), em que um usuário utiliza a eletricidade sem ao menos saber em que local ele foi gerada, sendo totalmente transparente aos seus usuários.
+IV - O surgimento das Grids Computacionais nasceu da comunidade de Processamento de Alto Desempenho (PAD).
+D 	
+Todas estão corretas.
+________________________________________________________________________________________________________________________________________________________________________________________
+A afirmação "Permite que as organizações possam agregar recursos com toda a infraestrutura dos ITs, não importando localização global; isso elimina situações onde um site esteja sendo executado com sua capacidade máxima, enquanto outros tenham ciclos disponíveis." é um beneficio de qual estrutura?
+A 	
+Grid.
+________________________________________________________________________________________________________________________________________________________________________________________
+Quais são os desafios operacionais que o Grid precisa equacionar?
+I - Localização dos recursos;
+II - Reserva de recursos;
+III - Capacidade para adaptar-se a mudanças no ambiente;
+IV - Capacidade computacional de cada nó do sistema.
+C 	
+Somente a I, II e III são verdadeiras.
+________________________________________________________________________________________________________________________________________________________________________________________
+Segunda Ian Foster, quais são as aracteristicas básica de um Grdi:
+I - Recursos coordenados que não se sujeitam a um controle centralizado: sistemas em Grid podem englobar recursos entre os mais variados tipos, desde o desktop de um usuário até um supercomputador; pode haver um controle local em uma empresa, mas não existe um controle central para todo o grid.
+II - Utilizar padrões abertos, interfaces e protocolos de propósito geral: a utilização de protocolos e padrões abertos é essencial para que os sistemas em Grid possam realizar funções fundamentais como autenticação, autorização, descobrimento de recursos e acesso a eles, sem perder a capacidade de escalar e interagir com diferentes plataformas de hardware e software.
+III - Prover o mínimo em qualidade de serviços: como segurança, tempo de resposta e disponibilidade.
+IV - Prover recursos coordenados centralizados: como processos e threads.
+E 	
+Todas são verdadeiras, com exceção da IV.
+________________________________________________________________________________________________________________________________________________________________________________________
+Quais são as maneiras de explorar os recursos computacionais em um Grid?
+I - Executar uma aplicação em qualquer máquina disponível do Grid, independentemente de onde esteja localizada;
+II - Quebrar o aplicativo em partes menores para que estas possam ser executadas paralelamente através do Grid;
+III - Executar uma tarefa que precisa rodar várias vezes em uma única máquina do Grid.
+IV - Executar uma tarefa que precisa rodar várias vezes em diferentes máquinas do Grid. 
+D 	
+Somente I, II e IV estão corretas.

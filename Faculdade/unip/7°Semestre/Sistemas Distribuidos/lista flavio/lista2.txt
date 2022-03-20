@@ -1,0 +1,56 @@
+1---- 
+web services é uma solução para integração na comunicação entre diferentes aplicações. Permitindo interação de novas aplicações com as que já existe através dos protocolos HTTP, XML, JSON, SOAP e REST. HTTP é usado como interface de comunicação entre as aplicações web e HTTPS para casos de comunicação segura.
+____________________________________________________________________________________
+2---- 
+XML, SOAP, REST E JSON.
+	XML - é um linguagem de marcação de texto, usada para descrição de dados e com o proposito para compartilhamento de informações entre diferentes aplicações através de um arquivo do tipo XML.
+	SOAP - é um protocolo de comunicação para compartilhamento de dados em uma plataforma descentralizada e distribuida. baseado no XML na construção de envelope, header e corpo do arquivo.
+	REST - é um estilo de arquitetura baseado no HTTP, é uma estrutura criada para ser mais simples que SOAP. por suportar alguns metodos HTTP, pode se comportar como um browser e realizar leitura de arquivos JSON.
+	JSON - é um formato de arquivo para troca de de dados simples e rápida entre sistemas independente da linguagem de programação. Utilizado em web services e se assemelha ao XML em representação de informação através de textos.
+____________________________________________________________________________________
+3----
+os serviços de armazenamento em nuvem se dividem em 3 categorias.
+Iaas(infraestrutura como serviço): neste serviço é alugado infra-estrutura. Armazenamento, sistema operacional, firewalls, VMs, servidores e redes. Com o objetivo de facilidar a demanda de recurso sem a necessidade de realizar instalação fisica.
+Paas(plataforma como serviço): neste é oferecido um ambiente para desenvolvimento, gerencialmento de aplicativos, ferramentas e sistemas de gerenciamento de dados. Com objetivo de facilitar o desenvolvimento.
+Saas(software como serviço): é uma forma de serviço para oferecer software como serviço. Dando suporte a atualizações e assinaturas do mesmo.
+____________________________________________________________________________________
+4----
+Computação em nuvem é uma tecnologia que permite a entrega de serviços de computação via internet. serviços esses que podem ser armazenamento, acesso remoto, stream de jogos ou aplicações especificas online. 
+Privada: a nuvem privada é do tipo em que os serviços são prestados internamente dentro de uma empresa. possui os serviços basicos de nuvem porem a rede se limita a operar apenas nos setores em que pertence a empresa.
+Publica: na nuvem publica, o serviço é prestado através da internet por um fornecedor à usuarios comuns ou para empresas. Nesse caso o gerencimento da segurança e disponibilidade é de total responsabilidade da empresa prestadora de serviço em nuvem.
+Hibrida: na arquitetura de nuvem hibrida, é possivel manter sistemas nas dois tipos. Por exemplo, dados mais sigilosos podem estar na nuvem privada e dados não sigilosos na nuvem publica.
+____________________________________________________________________________________
+5----
+SMPs: o smp occore em sistema com várias cpus com compartilhamento de memoria e endereçamento lógico que é gerenciado por um unico computador ou seja, são sistemas fortemente acoplados.
+Necessita ter sistema operacional homogeneo e apenas uma copia na central para gerenciar todo o sistema. Comunicação ocorre via barramento. 
+MPPs: são nós conectados via rede compartilhando apenas o mesmo escalonador. Pode possuir sistemas heterogenios e cada só executa seu sistema operacional. Nesse caso as aplicações não compartilham recursos.
+Cluster: são conjuntos de computadores conectados via rede. cada nó possui seu sistema operacional, cpu, memoria e escalonador. as requisições são enviadas via rede para seu trabalho. se difere do MPP por não possuir escalonador para o sistema e tende a ser mais lento o comunicação de processos via rede.
+GRID: são sistemas não dedicados e de diferentes plataformas. são distantes geograficamentes e cada nó pode ser composto por arquiteturas diferentes também é toleravel a falhas pois o processo é dividido para varios sistemas.
+
+6----
+com a programação paralela, um maior proveito é feito dos recursos fisico computacionais. Menor tempo na resolução de problemas complexos e de maior dimensão.
+
+7----
+é um protocolo de comunicação da camada de aplicação do modelo OSI, no qual é usado para fazer transferencia de dados mundialmente pela rede WWW.
+É composto por vários métodos sendo os principais GET, POST, PUT E DELETE
+GET - solicita representação de um dado recurso.
+POST - manipula recurso de servidores e processar informações
+PUT - atualiza um recurso caso não exista, ele pode cria-lo
+DELETE - remove um recurso retornando status 204 relacionado ao sucesso da operação.
+
+além dos métodos, é formado pelas repostas de status após as requisições, que são elas: 
+1xx: informational
+2xx: success
+3xx: redirection
+4xx: client error
+5xx: server error
+
+RESQUEST é composto pelos metodos citados e RESPONSE pelas repostas de status após as requisições.
+
+8----
+Processamento PARALELO - processamento paralelo concorre a outros processos para resolver o mesmo problema.
+Processamento DISTRIBUIDO - no distribuido está senco concorrido os recursos fisicos para o processo.
+COMPUTADOR PARALELO - neste caso é uma forma em que o processamento é realizado simultanemente, e nos ultimos anos isso vem crescendo com os processadores multicore
+
+9----
+

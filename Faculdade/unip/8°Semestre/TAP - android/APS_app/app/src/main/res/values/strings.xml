@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Previsão em Araraquara</string>
+    <string name="btnBuscar">Buscar Previsão</string>
+    <string name="irrigacao">STATUS IRRIGAÇÃO:</string>
+    <string name="status1">OFF</string>
+    <string name="status2">ON</string>
+    <string name="previsao">PREVISÃO:</string>
+    <string name="tempMinima">MÍNIMA:</string>
+    <string name="tempMaxima">MÁXIMA:</string>
+    <string name="uv">RAIOS UV:</string>
+    <string name="tempo">CONDIÇÃO</string>
+    <string name="btnLimpar">Limpar</string>
+    <string name="tmpMaxima">Temperatura Máxima</string>
+    <string name="tmpMinima">Temperatura Mínima</string>
+    <string name="indUv">Índice de raios UV</string>
+    <string name="condicao">Condição Climática</string>
+</resources>
